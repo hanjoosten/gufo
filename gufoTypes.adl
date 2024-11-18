@@ -1,0 +1,79 @@
+CONTEXT GufoTypes
+
+CONCEPT Type ""
+
+CONCEPT ConcreteIndividualType ""
+CLASSIFY ConcreteIndividualType ISA Type
+
+CONCEPT EndurantType ""
+CLASSIFY EndurantType ISA Type
+
+CONCEPT RigidType ""
+CLASSIFY RigidType ISA EndurantType
+
+CONCEPT NonRigidType ""
+CLASSIFY NonRigidType ISA EndurantType
+
+CONCEPT AntiRigidType ""
+CLASSIFY AntiRigidType ISA NonRigidType
+
+CONCEPT SemiRigidType ""
+CLASSIFY SemiRigidType ISA NonRigidType
+
+CONCEPT Sortal ""
+CLASSIFY Sortal ISA EndurantType
+
+CONCEPT Kind ""
+CLASSIFY Kind ISA RigidType
+CLASSIFY Kind ISA Sortal
+
+CONCEPT SubKind ""
+CLASSIFY SubKind ISA RigidType
+CLASSIFY SubKind ISA Sortal
+
+CONCEPT Role ""
+CLASSIFY Role ISA AntiRigidType
+CLASSIFY Role ISA Sortal
+
+CONCEPT Phase ""
+CLASSIFY Phase ISA AntiRigidType
+CLASSIFY Phase ISA Sortal
+
+CONCEPT NonSortal ""
+CLASSIFY NonSortal ISA EndurantType
+
+CONCEPT Category ""
+CLASSIFY Category ISA NonSortal
+CLASSIFY Category ISA RigidType
+
+CONCEPT Mixin ""
+CLASSIFY Mixin ISA NonSortal
+CLASSIFY Mixin ISA SemiRigidType
+
+CONCEPT RoleMixin ""
+CLASSIFY RoleMixin ISA NonSortal
+CLASSIFY RoleMixin ISA AntiRigidType
+
+CONCEPT PhaseMixin ""
+CLASSIFY PhaseMixin ISA AntiRigidType
+CLASSIFY PhaseMixin ISA NonSortal
+
+CONCEPT EventType ""
+CLASSIFY EventType ISA ConcreteIndividualType
+
+CONCEPT SituationType ""
+CLASSIFY SituationType ISA ConcreteIndividualType
+
+CONCEPT AbstractIndividualType ""
+CLASSIFY AbstractIndividualType ISA Type
+
+CONCEPT RelationshipType ""
+CLASSIFY RelationshipType ISA Type
+
+CONCEPT MaterialRelationshipType ""
+CLASSIFY MaterialRelationshipType ISA RelationshipType
+
+CONCEPT ComparativeRelationshipType ""
+CLASSIFY ComparativeRelationshipType ISA RelationshipType
+
+ENDCONTEXT

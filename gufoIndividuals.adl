@@ -1,0 +1,83 @@
+CONTEXT GufoIndividuals
+
+CONCEPT Individual ""
+
+CONCEPT ConcreteIndividual ""
+CLASSIFY ConcreteIndividual ISA Individual
+
+CONCEPT Endurant ""
+CLASSIFY Endurant ISA ConcreteIndividual
+
+CONCEPT Object ""
+CLASSIFY Object ISA Endurant
+
+CONCEPT FunctionalComplex ""
+CLASSIFY FunctionalComplex ISA Object
+
+CONCEPT Quantity ""
+CLASSIFY Quality ISA Object
+
+CONCEPT Collection ""
+CLASSIFY Collection ISA Object
+
+CONCEPT FixedCollection ""
+CLASSIFY FixedCollection ISA Collection
+
+CONCEPT VariableCollection ""
+CLASSIFY VariableCollection ISA Collection
+
+CONCEPT Aspect ""
+CLASSIFY Aspect ISA Endurant
+
+CONCEPT IntrinsicAspect ""
+CLASSIFY IntrinsicAspect ISA Aspect
+
+CONCEPT Quality ""
+CLASSIFY Quality ISA IntrinsicAspect
+
+CONCEPT IntrinsicMode ""
+CLASSIFY IntrinsicMode ISA IntrinsicAspect
+
+CONCEPT ExtrinsicAspect ""
+CLASSIFY ExtrinsicAspect ISA Aspect
+
+CONCEPT Relator ""
+CLASSIFY Relator ISA ExtrinsicAspect
+
+CONCEPT ExtrinsicMode ""
+CLASSIFY ExtrinsicMode ISA ExtrinsicAspect
+
+CONCEPT Event ""
+CLASSIFY Event ISA ConcreteIndividual
+
+CONCEPT Participation ""
+CLASSIFY Participation ISA Event
+
+CONCEPT Situation ""
+CLASSIFY Situation ISA ConcreteIndividual
+
+CONCEPT TemporaryRelationshipSituation ""
+CLASSIFY TemporaryRelationshipSituation ISA Situation
+
+CONCEPT QualityValueAttributionSituation ""
+CLASSIFY QualityValueAttributionSituation ISA Situation
+
+CONCEPT TemporaryInstantiationSituation ""
+CLASSIFY TemporaryInstantiationSituation ISA Situation
+
+CONCEPT TemporaryParthoodSituation ""
+CLASSIFY TemporaryParthoodSituation ISA Situation
+
+CONCEPT TemporaryConstitutionSituation ""
+CLASSIFY TemporaryConstitutionSituation ISA Situation
+
+CONCEPT AbstractIndividual ""
+CLASSIFY AbstractIndividual ISA Individual
+
+CONCEPT QualityValue ""
+CLASSIFY QualityValue ISA AbstractIndividual
+
+
+
+
+ENDCONTEXT
