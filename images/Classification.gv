@@ -1,0 +1,373 @@
+digraph {
+	graph [bgcolor=white,
+		rankdir=LR
+	];
+	node [label="\N"];
+	edge [fontsize=11,
+		minlen=4
+	];
+	5856882081075185428	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">AbstractIndividual</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	3590299170622736379	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">QualityValue</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	5856882081075185428 -> 3590299170622736379	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	6160633146359921048	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">AbstractIndividualType</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	8691271273193143665	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">AntiRigidType</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	3282696198210124861	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Phase</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	8691271273193143665 -> 3282696198210124861	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	2205619443274748365	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">PhaseMixin</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	8691271273193143665 -> 2205619443274748365	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	3671493546891182531	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Role</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	8691271273193143665 -> 3671493546891182531	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	1411714527410712815	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">RoleMixin</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	8691271273193143665 -> 1411714527410712815	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	2027021085132007865	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Aspect</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	6215809172686331797	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">ExtrinsicAspect</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	2027021085132007865 -> 6215809172686331797	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	240060997378797245	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">IntrinsicAspect</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	2027021085132007865 -> 240060997378797245	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	7275534580242204871	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Category</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	4924602363031977027	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Collection</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	6735880787474487548	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">FixedCollection</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	4924602363031977027 -> 6735880787474487548	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	7573379776039661269	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">VariableCollection</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	4924602363031977027 -> 7573379776039661269	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	2139255808107827119	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">ComparativeRelationshipType</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	8624874051131411515	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">ConcreteIndividual</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	2528753729402825468	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Endurant</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	8624874051131411515 -> 2528753729402825468	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	3754214810025567048	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Event</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	8624874051131411515 -> 3754214810025567048	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	1830317527719157972	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Situation</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	8624874051131411515 -> 1830317527719157972	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	7631401457530084391	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">ConcreteIndividualType</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	6354734839281895276	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">EventType</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	7631401457530084391 -> 6354734839281895276	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	8656696001436941488	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">SituationType</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	7631401457530084391 -> 8656696001436941488	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	2528753729402825468 -> 2027021085132007865	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	6888065786974451330	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Object</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	2528753729402825468 -> 6888065786974451330	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	2032858510272552000	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">EndurantType</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	4433020641696142691	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">NonRigidType</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	2032858510272552000 -> 4433020641696142691	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	3432918988779013030	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">NonSortal</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	2032858510272552000 -> 3432918988779013030	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	4569289030238359203	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">RigidType</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	2032858510272552000 -> 4569289030238359203	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	8443085690483348736	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Sortal</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	2032858510272552000 -> 8443085690483348736	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	7726681558319699387	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Participation</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	3754214810025567048 -> 7726681558319699387	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	6844407651428227754	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">ExtrinsicMode</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	6215809172686331797 -> 6844407651428227754	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	7534701634939362697	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Relator</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	6215809172686331797 -> 7534701634939362697	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	793838591969655023	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">FunctionalComplex</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	7312878420055880438	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Individual</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	7312878420055880438 -> 5856882081075185428	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	7312878420055880438 -> 8624874051131411515	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	8461073427098279936	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">IntrinsicMode</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	240060997378797245 -> 8461073427098279936	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	1059331366262569215	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Quality</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	240060997378797245 -> 1059331366262569215	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	9081173375415102099	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Kind</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	7223024499978500956	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">MaterialRelationshipType</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	1178638273940423197	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Mixin</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	4433020641696142691 -> 8691271273193143665	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	2244975618070240233	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">SemiRigidType</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	4433020641696142691 -> 2244975618070240233	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	3432918988779013030 -> 7275534580242204871	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	3432918988779013030 -> 1178638273940423197	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	3432918988779013030 -> 2205619443274748365	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	3432918988779013030 -> 1411714527410712815	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	6888065786974451330 -> 4924602363031977027	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	6888065786974451330 -> 793838591969655023	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	6888065786974451330 -> 1059331366262569215	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	4627941666655405534	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">QualityValueAttributionSituation</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	2262730913176630753	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">RelationshipType</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	2262730913176630753 -> 2139255808107827119	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	2262730913176630753 -> 7223024499978500956	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	4569289030238359203 -> 7275534580242204871	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	4569289030238359203 -> 9081173375415102099	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	680534911429263166	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">SubKind</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	4569289030238359203 -> 680534911429263166	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	2244975618070240233 -> 1178638273940423197	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	1830317527719157972 -> 4627941666655405534	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	2404125265116599071	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">TemporaryConstitutionSituation</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	1830317527719157972 -> 2404125265116599071	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	9149940379336442562	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">TemporaryInstantiationSituation</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	1830317527719157972 -> 9149940379336442562	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	6788476959011403581	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">TemporaryParthoodSituation</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	1830317527719157972 -> 6788476959011403581	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	3617637615697790862	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">TemporaryRelationshipSituation</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	1830317527719157972 -> 3617637615697790862	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	8443085690483348736 -> 9081173375415102099	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	8443085690483348736 -> 3282696198210124861	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	8443085690483348736 -> 3671493546891182531	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	8443085690483348736 -> 680534911429263166	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	4998300756583751	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Type</FONT></TD></TR></TABLE>>,
+		shape=plaintext];
+	4998300756583751 -> 6160633146359921048	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	4998300756583751 -> 7631401457530084391	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	4998300756583751 -> 2032858510272552000	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+	4998300756583751 -> 2262730913176630753	[arrowsize=2,
+		arrowtail=onormal,
+		color=red,
+		dir=back];
+}

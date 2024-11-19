@@ -2,5 +2,6 @@ CONTEXT Gufo LABEL "gUFO"
 
 INCLUDE "gufoIndividuals.adl"
 INCLUDE "gufoTypes.adl"
+INCLUDE "gufoRelations.adl"
 
 ENDCONTEXT

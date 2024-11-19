@@ -1,0 +1,460 @@
+digraph {
+	graph [bgcolor=white,
+		rankdir=LR
+	];
+	node [label="\N"];
+	edge [fontsize=11,
+		minlen=4
+	];
+	4998300756583751	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Type</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="Type">+ Type : Type</TD></TR><TR><TD ALIGN="LEFT" PORT="EndurantType">o EndurantType : EndurantType</TD></TR><TR><TD ALIGN="LEFT" PORT="NonRigidType">o NonRigidType : NonRigidType</TD></TR><TR><TD ALIGN="LEFT" PORT="ConcreteIndividualType">o ConcreteIndividualType : ConcreteIndividualType</TD></TR><TR><TD ALIGN="LEFT" PORT="RelationshipType">o RelationshipType : RelationshipType</TD></TR><TR><TD ALIGN="LEFT" PORT="RigidType">o RigidType : RigidType</TD></TR><TR><TD ALIGN="LEFT" PORT="Sortal">o Sortal : Sortal</TD></TR><TR><TD ALIGN="LEFT" PORT="NonSortal">o NonSortal : NonSortal</TD></TR><TR><TD ALIGN="LEFT" PORT="AntiRigidType">o AntiRigidType : AntiRigidType</TD></TR><TR><TD ALIGN="LEFT" PORT="SemiRigidType">o SemiRigidType : SemiRigidType</TD></TR><TR><TD ALIGN="LEFT" PORT="EventType">o EventType : EventType</TD></TR><TR><TD ALIGN="LEFT" PORT="SituationType">o SituationType : SituationType</TD></TR><TR><TD ALIGN="LEFT" PORT="AbstractIndividualType">o AbstractIndividualType : AbstractIndividualType</TD></TR><TR><TD ALIGN="LEFT" PORT="MaterialRelationshipType">o MaterialRelationshipType : MaterialRelationshipType</TD></TR><TR><TD ALIGN="LEFT" PORT="ComparativeRelationshipType">o ComparativeRelationshipType : ComparativeRelationshipType</TD></TR><TR><TD ALIGN="LEFT" PORT="Kind">o Kind : Kind</TD></TR><TR><TD ALIGN="LEFT" PORT="SubKind">o SubKind : SubKind</TD></TR><TR><TD ALIGN="LEFT" PORT="Role">o Role : Role</TD></TR><TR><TD ALIGN="LEFT" PORT="Phase">o Phase : Phase</TD></TR><TR><TD ALIGN="LEFT" PORT="Category">o Category : Category</TD></TR><TR><TD ALIGN="LEFT" PORT="Mixin">o Mixin : Mixin</TD></TR><TR><TD ALIGN="LEFT" PORT="RoleMixin">o RoleMixin : RoleMixin</TD></TR><TR><TD ALIGN="LEFT" PORT="PhaseMixin">o PhaseMixin : PhaseMixin</TD></TR></TABLE>>,
+		shape=plaintext];
+	7312878420055880438	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">Individual</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="Individual">+ Individual : Individual</TD></TR><TR><TD ALIGN="LEFT" PORT="ConcreteIndividual">o ConcreteIndividual : ConcreteIndividual</TD></TR><TR><TD ALIGN="LEFT" PORT="Endurant">o Endurant : Endurant</TD></TR><TR><TD ALIGN="LEFT" PORT="Object">o Object : Object</TD></TR><TR><TD ALIGN="LEFT" PORT="Aspect">o Aspect : Aspect</TD></TR><TR><TD ALIGN="LEFT" PORT="Event">o Event : Event</TD></TR><TR><TD ALIGN="LEFT" PORT="Situation">o Situation : Situation</TD></TR><TR><TD ALIGN="LEFT" PORT="AbstractIndividual">o AbstractIndividual : AbstractIndividual</TD></TR><TR><TD ALIGN="LEFT" PORT="Collection">o Collection : Collection</TD></TR><TR><TD ALIGN="LEFT" PORT="IntrinsicAspect">o IntrinsicAspect : IntrinsicAspect</TD></TR><TR><TD ALIGN="LEFT" PORT="ExtrinsicAspect">o ExtrinsicAspect : ExtrinsicAspect</TD></TR><TR><TD ALIGN="LEFT" PORT="Participation">o Participation : Participation</TD></TR><TR><TD ALIGN="LEFT" PORT="TemporaryRelationshipSituation">o TemporaryRelationshipSituation : TemporaryRelationshipSituation</TD></TR><TR><TD ALIGN="LEFT" PORT="QualityValueAttributionSituation">o QualityValueAttributionSituation : QualityValueAttributionSituation</TD></TR><TR><TD ALIGN="LEFT" PORT="TemporaryInstantiationSituation">o TemporaryInstantiationSituation : TemporaryInstantiationSituation</TD></TR><TR><TD ALIGN="LEFT" PORT="TemporaryParthoodSituation">o TemporaryParthoodSituation : TemporaryParthoodSituation</TD></TR><TR><TD ALIGN="LEFT" PORT="TemporaryConstitutionSituation">o TemporaryConstitutionSituation : TemporaryConstitutionSituation</TD></TR><TR><TD ALIGN="LEFT" PORT="QualityValue">o QualityValue : QualityValue</TD></TR><TR><TD ALIGN="LEFT" PORT="FunctionalComplex">o FunctionalComplex : FunctionalComplex</TD></TR><TR><TD ALIGN="LEFT" PORT="Quality">o Quality : Quality</TD></TR><TR><TD ALIGN="LEFT" PORT="FixedCollection">o FixedCollection : FixedCollection</TD></TR><TR><TD ALIGN="LEFT" PORT="VariableCollection">o VariableCollection : VariableCollection</TD></TR><TR><TD ALIGN="LEFT" PORT="IntrinsicMode">o IntrinsicMode : IntrinsicMode</TD></TR><TR><TD ALIGN="LEFT" PORT="Relator">o Relator : Relator</TD></TR><TR><TD ALIGN="LEFT" PORT="ExtrinsicMode">o ExtrinsicMode : ExtrinsicMode</TD></TR></TABLE>>,
+		shape=plaintext];
+	6179998003270589001	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">broughtAbout</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="Event">+ Event : Event</TD></TR><TR><TD ALIGN="LEFT" PORT="Situation">+ Situation : Situation</TD></TR></TABLE>>,
+		shape=plaintext];
+	6179998003270589001:Event -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	6179998003270589001:Situation -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	1730376641055602172	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">categorizes</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="RelationshipType">+ RelationshipType : RelationshipType</TD></TR><TR><TD ALIGN="LEFT" PORT="Type">+ Type : Type</TD></TR></TABLE>>,
+		shape=plaintext];
+	1730376641055602172:EndurantType -> 4998300756583751	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	1730376641055602172:Type -> 4998300756583751	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	1730376641055602172:RelationshipType -> 4998300756583751	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	1730376641055602172:Type -> 4998300756583751	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	2265533895608559924	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">concernsConstitutedEndurant</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="TemporaryConstitutionSituation">+ TemporaryConstitutionSituation : TemporaryConstitutionSituation</TD></TR><TR><TD ALIGN="LEFT" PORT="Endurant">+ Endurant : Endurant</TD></TR></TABLE>>,
+		shape=plaintext];
+	2265533895608559924:TemporaryConstitutionSituation -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	2265533895608559924:Endurant -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	8480149455899678092	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">concernsNonRigidType</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="TemporaryInstantiationSituation">+ TemporaryInstantiationSituation : TemporaryInstantiationSituation</TD></TR><TR><TD ALIGN="LEFT" PORT="NonRigidType">+ NonRigidType : NonRigidType</TD></TR></TABLE>>,
+		shape=plaintext];
+	8480149455899678092:NonRigidType -> 4998300756583751	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	8480149455899678092:TemporaryInstantiationSituation -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	3758766264481780252	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">concernsQualityType</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="QualityValueAttributionSituation">+ QualityValueAttributionSituation : QualityValueAttributionSituation</TD></TR><TR><TD ALIGN="LEFT" PORT="EndurantType">+ EndurantType : EndurantType</TD></TR></TABLE>>,
+		shape=plaintext];
+	3758766264481780252:EndurantType -> 4998300756583751	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	3758766264481780252:QualityValueAttributionSituation -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	6317407576968882972	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">concernsQualityValue</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="ConcreteIndividual">+ ConcreteIndividual : ConcreteIndividual</TD></TR><TR><TD ALIGN="LEFT" PORT="QualityValueAttributionSituation">+ QualityValueAttributionSituation : QualityValueAttributionSituation</TD></TR></TABLE>>,
+		shape=plaintext];
+	6317407576968882972:ConcreteIndividual -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	6317407576968882972:QualityValueAttributionSituation -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	5799765537234885543	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">concernsReifiedQualityValue</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="QualityValueAttributionSituation">+ QualityValueAttributionSituation : QualityValueAttributionSituation</TD></TR><TR><TD ALIGN="LEFT" PORT="QualityValue">+ QualityValue : QualityValue</TD></TR></TABLE>>,
+		shape=plaintext];
+	5799765537234885543:QualityValueAttributionSituation -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	5799765537234885543:QualityValue -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	4741644002883974555	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">concernsRelatedEndurant</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="TemporaryRelationshipSituation">+ TemporaryRelationshipSituation : TemporaryRelationshipSituation</TD></TR><TR><TD ALIGN="LEFT" PORT="Endurant">+ Endurant : Endurant</TD></TR></TABLE>>,
+		shape=plaintext];
+	4741644002883974555:TemporaryRelationshipSituation -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	4741644002883974555:Endurant -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	5300680732579696916	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">concernsRelationshipType</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="TemporaryRelationshipSituation">+ TemporaryRelationshipSituation : TemporaryRelationshipSituation</TD></TR><TR><TD ALIGN="LEFT" PORT="RelationshipType">+ RelationshipType : RelationshipType</TD></TR></TABLE>>,
+		shape=plaintext];
+	5300680732579696916:RelationshipType -> 4998300756583751	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	5300680732579696916:TemporaryRelationshipSituation -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	970152115917753766	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">concernsTemporaryWhole</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="TemporaryParthoodSituation">+ TemporaryParthoodSituation : TemporaryParthoodSituation</TD></TR><TR><TD ALIGN="LEFT" PORT="Endurant">+ Endurant : Endurant</TD></TR></TABLE>>,
+		shape=plaintext];
+	970152115917753766:TemporaryParthoodSituation -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	970152115917753766:Endurant -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	3663237598269285069	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">constitutes</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="SrcConcreteIndividual">+ SrcConcreteIndividual : ConcreteIndividual</TD></TR><TR><TD ALIGN="LEFT" PORT="TgtConcreteIndividual">+ TgtConcreteIndividual : ConcreteIndividual</TD></TR></TABLE>>,
+		shape=plaintext];
+	3663237598269285069:SrcConcreteIndividual -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	3663237598269285069:TgtConcreteIndividual -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	2977554388552045357	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">contributedToTrigger</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="Situation">+ Situation : Situation</TD></TR><TR><TD ALIGN="LEFT" PORT="Event">+ Event : Event</TD></TR></TABLE>>,
+		shape=plaintext];
+	2977554388552045357:Situation -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	2977554388552045357:Event -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	6481727209734788600	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">externallyDependsOn</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="ExtrinsicMode">+ ExtrinsicMode : ExtrinsicMode</TD></TR><TR><TD ALIGN="LEFT" PORT="Endurant">+ Endurant : Endurant</TD></TR></TABLE>>,
+		shape=plaintext];
+	6481727209734788600:ExtrinsicMode -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	6481727209734788600:Endurant -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	5791247815661792436	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">hasAssociatedQualityValueType</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="EndurantType">+ EndurantType : EndurantType</TD></TR><TR><TD ALIGN="LEFT" PORT="AbstractIndividualType">+ AbstractIndividualType : AbstractIndividualType</TD></TR></TABLE>>,
+		shape=plaintext];
+	5791247815661792436:EndurantType -> 4998300756583751	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	5791247815661792436:AbstractIndividualType -> 4998300756583751	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	4281194580800441000	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">hasQualityValue</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="SrcConcreteIndividual">+ SrcConcreteIndividual : ConcreteIndividual</TD></TR><TR><TD ALIGN="LEFT" PORT="TgtConcreteIndividual">+ TgtConcreteIndividual : ConcreteIndividual</TD></TR></TABLE>>,
+		shape=plaintext];
+	4281194580800441000:SrcConcreteIndividual -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	4281194580800441000:TgtConcreteIndividual -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	7770755281720089119	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">hasReifiedQualityValue</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="ConcreteIndividual">+ ConcreteIndividual : ConcreteIndividual</TD></TR><TR><TD ALIGN="LEFT" PORT="QualityValue">+ QualityValue : QualityValue</TD></TR></TABLE>>,
+		shape=plaintext];
+	7770755281720089119:ConcreteIndividual -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	7770755281720089119:QualityValue -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	5898165828040570752	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">hasValueComponent</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="SrcQualityValue">+ SrcQualityValue : QualityValue</TD></TR><TR><TD ALIGN="LEFT" PORT="TgtQualityValue">+ TgtQualityValue : QualityValue</TD></TR></TABLE>>,
+		shape=plaintext];
+	5898165828040570752:SrcQualityValue -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	5898165828040570752:TgtQualityValue -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	1182693055775004759	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">historicallyDependsOn</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="SrcConcreteIndividual">+ SrcConcreteIndividual : ConcreteIndividual</TD></TR><TR><TD ALIGN="LEFT" PORT="TgtConcreteIndividual">+ TgtConcreteIndividual : ConcreteIndividual</TD></TR></TABLE>>,
+		shape=plaintext];
+	1182693055775004759:SrcConcreteIndividual -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	1182693055775004759:TgtConcreteIndividual -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	8879176409935254927	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">inheresIn</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="Aspect">+ Aspect : Aspect</TD></TR><TR><TD ALIGN="LEFT" PORT="ConcreteIndividual">+ ConcreteIndividual : ConcreteIndividual</TD></TR></TABLE>>,
+		shape=plaintext];
+	8879176409935254927:Aspect -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	8879176409935254927:ConcreteIndividual -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	2204147040503001339	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">isAspectProperPartOf</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="SrcAspect">+ SrcAspect : Aspect</TD></TR><TR><TD ALIGN="LEFT" PORT="TgtAspect">+ TgtAspect : Aspect</TD></TR></TABLE>>,
+		shape=plaintext];
+	2204147040503001339:SrcAspect -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	2204147040503001339:TgtAspect -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	8043745595381526488	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">isCollectionMemberOf</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="Object">+ Object : Object</TD></TR><TR><TD ALIGN="LEFT" PORT="Collection">+ Collection : Collection</TD></TR></TABLE>>,
+		shape=plaintext];
+	8043745595381526488:Object -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	8043745595381526488:Collection -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	9040617844020667590	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">isComponentOf</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="Object">+ Object : Object</TD></TR><TR><TD ALIGN="LEFT" PORT="FunctionalComplex">+ FunctionalComplex : FunctionalComplex</TD></TR></TABLE>>,
+		shape=plaintext];
+	9040617844020667590:Object -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	9040617844020667590:FunctionalComplex -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	6348683666540874813	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">isDerivedFrom</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="MaterialRelationshipType">+ MaterialRelationshipType : MaterialRelationshipType</TD></TR><TR><TD ALIGN="LEFT" PORT="EndurantType">+ EndurantType : EndurantType</TD></TR></TABLE>>,
+		shape=plaintext];
+	6348683666540874813:ComparativeRelationshipType -> 4998300756583751	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	6348683666540874813:EndurantType -> 4998300756583751	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	6348683666540874813:MaterialRelationshipType -> 4998300756583751	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	6348683666540874813:EndurantType -> 4998300756583751	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	5594727149315736368	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">isEventProperPartOf</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="SrcEvent">+ SrcEvent : Event</TD></TR><TR><TD ALIGN="LEFT" PORT="TgtEvent">+ TgtEvent : Event</TD></TR></TABLE>>,
+		shape=plaintext];
+	5594727149315736368:SrcEvent -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	5594727149315736368:TgtEvent -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	5663525263028088322	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">isObjectProperPartOf</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="SrcObject">+ SrcObject : Object</TD></TR><TR><TD ALIGN="LEFT" PORT="TgtObject">+ TgtObject : Object</TD></TR></TABLE>>,
+		shape=plaintext];
+	5663525263028088322:SrcObject -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	5663525263028088322:TgtObject -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	5013581757362341152	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">isSituationProperPartOf</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="SrcSituation">+ SrcSituation : Situation</TD></TR><TR><TD ALIGN="LEFT" PORT="TgtSituation">+ TgtSituation : Situation</TD></TR></TABLE>>,
+		shape=plaintext];
+	5013581757362341152:SrcSituation -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	5013581757362341152:TgtSituation -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	6110956770085750757	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">isSubCollectionOf</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="SrcCollection">+ SrcCollection : Collection</TD></TR><TR><TD ALIGN="LEFT" PORT="TgtCollection">+ TgtCollection : Collection</TD></TR></TABLE>>,
+		shape=plaintext];
+	6110956770085750757:SrcCollection -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	6110956770085750757:TgtCollection -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	3237067738325005128	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">isSubQuantityOf</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="SrcQuantity">+ SrcQuantity : Quantity</TD></TR><TR><TD ALIGN="LEFT" PORT="TgtQuantity">+ TgtQuantity : Quantity</TD></TR></TABLE>>,
+		shape=plaintext];
+	1925893254512783612	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">manifestedIn</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="Aspect">+ Aspect : Aspect</TD></TR><TR><TD ALIGN="LEFT" PORT="Event">+ Event : Event</TD></TR></TABLE>>,
+		shape=plaintext];
+	1925893254512783612:Aspect -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	1925893254512783612:Event -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	1392452867933202779	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">mediates</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="Relator">+ Relator : Relator</TD></TR><TR><TD ALIGN="LEFT" PORT="Endurant">+ Endurant : Endurant</TD></TR></TABLE>>,
+		shape=plaintext];
+	1392452867933202779:Relator -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	1392452867933202779:Endurant -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	2475871790973641314	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">participatedIn</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="Object">+ Object : Object</TD></TR><TR><TD ALIGN="LEFT" PORT="Event">+ Event : Event</TD></TR></TABLE>>,
+		shape=plaintext];
+	2475871790973641314:Object -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	2475871790973641314:Event -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	3669038213622273138	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">partitions</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="RelationshipType">+ RelationshipType : RelationshipType</TD></TR><TR><TD ALIGN="LEFT" PORT="Type">+ Type : Type</TD></TR></TABLE>>,
+		shape=plaintext];
+	3669038213622273138:EndurantType -> 4998300756583751	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	3669038213622273138:Type -> 4998300756583751	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	3669038213622273138:RelationshipType -> 4998300756583751	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	3669038213622273138:Type -> 4998300756583751	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	4414695463012239662	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">standsInQualifiedAttribution</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="Endurant">+ Endurant : Endurant</TD></TR><TR><TD ALIGN="LEFT" PORT="QualityValueAttributionSituation">+ QualityValueAttributionSituation : QualityValueAttributionSituation</TD></TR></TABLE>>,
+		shape=plaintext];
+	4414695463012239662:Endurant -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	4414695463012239662:QualityValueAttributionSituation -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	2088742862100460769	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">standsInQualifiedConstitution</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="Endurant">+ Endurant : Endurant</TD></TR><TR><TD ALIGN="LEFT" PORT="TemporaryConstitutionSituation">+ TemporaryConstitutionSituation : TemporaryConstitutionSituation</TD></TR></TABLE>>,
+		shape=plaintext];
+	2088742862100460769:Endurant -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	2088742862100460769:TemporaryConstitutionSituation -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	4737300862289495724	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">standsInQualifiedInstantiation</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="Endurant">+ Endurant : Endurant</TD></TR><TR><TD ALIGN="LEFT" PORT="TemporaryInstantiationSituation">+ TemporaryInstantiationSituation : TemporaryInstantiationSituation</TD></TR></TABLE>>,
+		shape=plaintext];
+	4737300862289495724:Endurant -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	4737300862289495724:TemporaryInstantiationSituation -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	8295756462478876509	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">standsInQualifiedParthood</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="Endurant">+ Endurant : Endurant</TD></TR><TR><TD ALIGN="LEFT" PORT="TemporaryParthoodSituation">+ TemporaryParthoodSituation : TemporaryParthoodSituation</TD></TR></TABLE>>,
+		shape=plaintext];
+	8295756462478876509:Endurant -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	8295756462478876509:TemporaryParthoodSituation -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	120747590545405010	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">standsInQualifiedRelationship</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="Endurant">+ Endurant : Endurant</TD></TR><TR><TD ALIGN="LEFT" PORT="TemporaryRelationshipSituation">+ TemporaryRelationshipSituation : TemporaryRelationshipSituation</TD></TR></TABLE>>,
+		shape=plaintext];
+	120747590545405010:Endurant -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	120747590545405010:TemporaryRelationshipSituation -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	7919064403725295457	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">wasCreatedIn</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="Endurant">+ Endurant : Endurant</TD></TR><TR><TD ALIGN="LEFT" PORT="Event">+ Event : Event</TD></TR></TABLE>>,
+		shape=plaintext];
+	7919064403725295457:Endurant -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	7919064403725295457:Event -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	6481977852009982383	[color=purple,
+		label=<<TABLE BGCOLOR="white" COLOR="black" BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD BGCOLOR="gray10" COLOR="black"><FONT COLOR="white">wasTerminatedIn</FONT></TD></TR><TR><TD ALIGN="LEFT" PORT="Endurant">+ Endurant : Endurant</TD></TR><TR><TD ALIGN="LEFT" PORT="Event">+ Event : Event</TD></TR></TABLE>>,
+		shape=plaintext];
+	6481977852009982383:Endurant -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+	6481977852009982383:Event -> 7312878420055880438	[arrowhead=onone,
+		headlabel=1,
+		labelfloat=true,
+		taillabel="*"];
+}
